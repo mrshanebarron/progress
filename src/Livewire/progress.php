@@ -32,6 +32,6 @@ class Progress extends Component
 
     public function render()
     {
-        return view('ld-progress::livewire.progress');
+        return view('sb-progress::livewire.progress');
     }
 }

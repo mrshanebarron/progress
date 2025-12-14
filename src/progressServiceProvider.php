@@ -9,8 +9,8 @@ class ProgressServiceProvider extends ServiceProvider
     public function boot(): void
     {
         if (class_exists(\Livewire\Livewire::class)) {
-            \Livewire\Livewire::component('ld-progress', Livewire\Progress::class);
+            \Livewire\Livewire::component('sb-progress', Livewire\Progress::class);
         }
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'ld-progress');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'sb-progress');
     }
 }

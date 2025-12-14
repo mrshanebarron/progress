@@ -21,7 +21,7 @@
 import { computed } from 'vue';
 
 export default {
-  name: 'LdProgress',
+  name: 'SbProgress',
   props: {
     value: { type: Number, default: 0 },
     max: { type: Number, default: 100 },
